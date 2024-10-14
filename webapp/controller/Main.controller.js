@@ -23,6 +23,7 @@ sap.ui.define([
 					oModel.setData(JSON.parse(this.responseText).data);
 					console.log(oModel.getData());
 					that.getView().setModel(oModel, "items");
+					console.log("test m1")
 
 				}
 			}
