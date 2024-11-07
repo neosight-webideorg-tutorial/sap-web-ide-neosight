@@ -30,7 +30,7 @@ sap.ui.define([
 
 			// set the XHR request parameters
 			xhttp.open("GET", "https://reqres.in/api/users?page=2", true);
-
+			cpnsole.log("test");
 			// fire the XHR request
 			xhttp.send();
 		}
